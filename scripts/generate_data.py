@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
+import os
 
 def generate_transactions(n_customers=1000, n_transactions=50000):
     np.random.seed(42)
